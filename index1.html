@@ -14,8 +14,16 @@
         <img src="hehehehe.gif" alt="teddy animation">
     </div>
     <div class="buttons">
-        <button class="btn" id="yesButton" >YES</button>
-        <button class="btn" id="noButton" >NO</button>
+        <button class="btn" id="yesButton" onclick="yespage()" >YES</button>
+        <button class="btn" id="noButton" onclick="nopage()">NO</button>
+        <script>
+            function yespage(){
+                window.location.href="yes.html";
+            }
+            function nopage(){
+                window.location.href="no.html";
+            }
+        </script>
     </div>
 
     </div>
